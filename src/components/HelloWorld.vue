@@ -1,15 +1,19 @@
 <script>
-
+  export default {
+    data(){
+      return {
+        hello: 'La mia prima app con vite!!!'
+      }
+    }
+  }
 </script>
 
 <template>
   <p>
-    La mia prima app con Vite!
+    {{ hello }}
   </p>    
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+
 </style>
